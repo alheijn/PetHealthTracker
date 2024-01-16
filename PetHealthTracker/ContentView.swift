@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PetHealthTracker
 //
-//  Created by Albert Heinrichs on 10.01.24.
+//  Team: Albert Heinrichs, Patrizia Neubauer
 //
 
 import SwiftUI

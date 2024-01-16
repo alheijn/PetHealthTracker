@@ -2,7 +2,7 @@
 //  PetHealthTrackerUITestsLaunchTests.swift
 //  PetHealthTrackerUITests
 //
-//  Created by Albert Heinrichs on 10.01.24.
+//  Team: Albert Heinrichs, Patrizia Neubauer
 //
 
 import XCTest
