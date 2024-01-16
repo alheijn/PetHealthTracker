@@ -16,6 +16,8 @@
 		50597C9C2B4EA2720021DA7C /* PetHealthTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50597C9B2B4EA2720021DA7C /* PetHealthTrackerTests.swift */; };
 		50597CA62B4EA2720021DA7C /* PetHealthTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50597CA52B4EA2720021DA7C /* PetHealthTrackerUITests.swift */; };
 		50597CA82B4EA2720021DA7C /* PetHealthTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50597CA72B4EA2720021DA7C /* PetHealthTrackerUITestsLaunchTests.swift */; };
+		87B551AD2B56F024001FA5DB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B551AC2B56F024001FA5DB /* MainView.swift */; };
+		87B551B02B56F063001FA5DB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B551AF2B56F063001FA5DB /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		50597CA12B4EA2720021DA7C /* PetHealthTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetHealthTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50597CA52B4EA2720021DA7C /* PetHealthTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHealthTrackerUITests.swift; sourceTree = "<group>"; };
 		50597CA72B4EA2720021DA7C /* PetHealthTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHealthTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87B551AC2B56F024001FA5DB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		87B551AF2B56F063001FA5DB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,14 @@
 		50597C842B4EA26F0021DA7C /* PetHealthTracker */ = {
 			isa = PBXGroup;
 			children = (
+				87B551AE2B56F046001FA5DB /* Extension */,
 				50597C852B4EA2700021DA7C /* PetHealthTrackerApp.swift */,
 				50597C872B4EA2700021DA7C /* ContentView.swift */,
 				50597C892B4EA2720021DA7C /* Assets.xcassets */,
 				50597C8E2B4EA2720021DA7C /* Persistence.swift */,
 				50597C902B4EA2720021DA7C /* PetHealthTracker.xcdatamodeld */,
 				50597C8B2B4EA2720021DA7C /* Preview Content */,
+				87B551AC2B56F024001FA5DB /* MainView.swift */,
 			);
 			path = PetHealthTracker;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				50597CA72B4EA2720021DA7C /* PetHealthTrackerUITestsLaunchTests.swift */,
 			);
 			path = PetHealthTrackerUITests;
+			sourceTree = "<group>";
+		};
+		87B551AE2B56F046001FA5DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				87B551AF2B56F063001FA5DB /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +280,9 @@
 				50597C922B4EA2720021DA7C /* PetHealthTracker.xcdatamodeld in Sources */,
 				50597C8F2B4EA2720021DA7C /* Persistence.swift in Sources */,
 				50597C882B4EA2700021DA7C /* ContentView.swift in Sources */,
+				87B551AD2B56F024001FA5DB /* MainView.swift in Sources */,
 				50597C862B4EA2700021DA7C /* PetHealthTrackerApp.swift in Sources */,
+				87B551B02B56F063001FA5DB /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
