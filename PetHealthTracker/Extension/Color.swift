@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  Color.swift
 //  PetHealthTracker
 //
 //  Created by Patrizia Neubauer on 16.01.24.
